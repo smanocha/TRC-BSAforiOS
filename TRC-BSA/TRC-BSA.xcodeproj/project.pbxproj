@@ -7,51 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A069E4B1EAD9BC700E7D4E5 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A069E4A1EAD9BC700E7D4E5 /* CalendarView.swift */; };
-		6ABEF6121EAD47D3001648F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEF6111EAD47D3001648F4 /* AppDelegate.swift */; };
-		6ABEF6141EAD47D3001648F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEF6131EAD47D3001648F4 /* ViewController.swift */; };
-		6ABEF6171EAD47D3001648F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEF6151EAD47D3001648F4 /* Main.storyboard */; };
-		6ABEF6191EAD47D3001648F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEF6181EAD47D3001648F4 /* Assets.xcassets */; };
-		6ABEF61C1EAD47D3001648F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6ABEF61A1EAD47D3001648F4 /* LaunchScreen.storyboard */; };
-		6ABEF6271EAD47D4001648F4 /* TRC_BSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ABEF6261EAD47D4001648F4 /* TRC_BSATests.swift */; };
-		6ABEF6331EAD5510001648F4 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ABEF6321EAD5510001648F4 /* WebKit.framework */; };
+		6A57A3DB1EB0258800FD06D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3DA1EB0258800FD06D3 /* AppDelegate.swift */; };
+		6A57A3DD1EB0258800FD06D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3DC1EB0258800FD06D3 /* ViewController.swift */; };
+		6A57A3E01EB0258800FD06D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A57A3DE1EB0258800FD06D3 /* Main.storyboard */; };
+		6A57A3E21EB0258800FD06D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A57A3E11EB0258800FD06D3 /* Assets.xcassets */; };
+		6A57A3E51EB0258800FD06D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A57A3E31EB0258800FD06D3 /* LaunchScreen.storyboard */; };
+		6A57A3F01EB0258800FD06D3 /* TRC_BSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3EF1EB0258800FD06D3 /* TRC_BSATests.swift */; };
+		6A57A3FB1EB0298A00FD06D3 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6ABEF6231EAD47D4001648F4 /* PBXContainerItemProxy */ = {
+		6A57A3EC1EB0258800FD06D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 6ABEF6061EAD47D3001648F4 /* Project object */;
+			containerPortal = 6A57A3CF1EB0258800FD06D3 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6ABEF60D1EAD47D3001648F4;
+			remoteGlobalIDString = 6A57A3D61EB0258800FD06D3;
 			remoteInfo = "TRC-BSA";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6A069E4A1EAD9BC700E7D4E5 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
-		6ABEF60E1EAD47D3001648F4 /* TRC-BSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TRC-BSA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ABEF6111EAD47D3001648F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6ABEF6131EAD47D3001648F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6ABEF6161EAD47D3001648F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6ABEF6181EAD47D3001648F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6ABEF61B1EAD47D3001648F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6ABEF61D1EAD47D3001648F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ABEF6221EAD47D4001648F4 /* TRC-BSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TRC-BSATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6ABEF6261EAD47D4001648F4 /* TRC_BSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRC_BSATests.swift; sourceTree = "<group>"; };
-		6ABEF6281EAD47D4001648F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6ABEF6321EAD5510001648F4 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		6A57A3D71EB0258800FD06D3 /* TRC-BSA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TRC-BSA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A57A3DA1EB0258800FD06D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A57A3DC1EB0258800FD06D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A57A3DF1EB0258800FD06D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A57A3E11EB0258800FD06D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A57A3E41EB0258800FD06D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A57A3E61EB0258800FD06D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A57A3EB1EB0258800FD06D3 /* TRC-BSATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TRC-BSATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A57A3EF1EB0258800FD06D3 /* TRC_BSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRC_BSATests.swift; sourceTree = "<group>"; };
+		6A57A3F11EB0258800FD06D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6ABEF60B1EAD47D3001648F4 /* Frameworks */ = {
+		6A57A3D41EB0258800FD06D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABEF6331EAD5510001648F4 /* WebKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ABEF61F1EAD47D4001648F4 /* Frameworks */ = {
+		6A57A3E81EB0258800FD06D3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -61,66 +58,57 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6ABEF6051EAD47D3001648F4 = {
+		6A57A3CE1EB0258800FD06D3 = {
 			isa = PBXGroup;
 			children = (
-				6ABEF6101EAD47D3001648F4 /* TRC-BSA */,
-				6ABEF6251EAD47D4001648F4 /* TRC-BSATests */,
-				6ABEF60F1EAD47D3001648F4 /* Products */,
-				6ABEF6311EAD5510001648F4 /* Frameworks */,
+				6A57A3D91EB0258800FD06D3 /* TRC-BSA */,
+				6A57A3EE1EB0258800FD06D3 /* TRC-BSATests */,
+				6A57A3D81EB0258800FD06D3 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		6ABEF60F1EAD47D3001648F4 /* Products */ = {
+		6A57A3D81EB0258800FD06D3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6ABEF60E1EAD47D3001648F4 /* TRC-BSA.app */,
-				6ABEF6221EAD47D4001648F4 /* TRC-BSATests.xctest */,
+				6A57A3D71EB0258800FD06D3 /* TRC-BSA.app */,
+				6A57A3EB1EB0258800FD06D3 /* TRC-BSATests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6ABEF6101EAD47D3001648F4 /* TRC-BSA */ = {
+		6A57A3D91EB0258800FD06D3 /* TRC-BSA */ = {
 			isa = PBXGroup;
 			children = (
-				6ABEF6111EAD47D3001648F4 /* AppDelegate.swift */,
-				6ABEF6131EAD47D3001648F4 /* ViewController.swift */,
-				6ABEF6151EAD47D3001648F4 /* Main.storyboard */,
-				6A069E4A1EAD9BC700E7D4E5 /* CalendarView.swift */,
-				6ABEF6181EAD47D3001648F4 /* Assets.xcassets */,
-				6ABEF61A1EAD47D3001648F4 /* LaunchScreen.storyboard */,
-				6ABEF61D1EAD47D3001648F4 /* Info.plist */,
+				6A57A3DA1EB0258800FD06D3 /* AppDelegate.swift */,
+				6A57A3DC1EB0258800FD06D3 /* ViewController.swift */,
+				6A57A3DE1EB0258800FD06D3 /* Main.storyboard */,
+				6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */,
+				6A57A3E11EB0258800FD06D3 /* Assets.xcassets */,
+				6A57A3E31EB0258800FD06D3 /* LaunchScreen.storyboard */,
+				6A57A3E61EB0258800FD06D3 /* Info.plist */,
 			);
 			path = "TRC-BSA";
 			sourceTree = "<group>";
 		};
-		6ABEF6251EAD47D4001648F4 /* TRC-BSATests */ = {
+		6A57A3EE1EB0258800FD06D3 /* TRC-BSATests */ = {
 			isa = PBXGroup;
 			children = (
-				6ABEF6261EAD47D4001648F4 /* TRC_BSATests.swift */,
-				6ABEF6281EAD47D4001648F4 /* Info.plist */,
+				6A57A3EF1EB0258800FD06D3 /* TRC_BSATests.swift */,
+				6A57A3F11EB0258800FD06D3 /* Info.plist */,
 			);
 			path = "TRC-BSATests";
-			sourceTree = "<group>";
-		};
-		6ABEF6311EAD5510001648F4 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6ABEF6321EAD5510001648F4 /* WebKit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6ABEF60D1EAD47D3001648F4 /* TRC-BSA */ = {
+		6A57A3D61EB0258800FD06D3 /* TRC-BSA */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ABEF62B1EAD47D4001648F4 /* Build configuration list for PBXNativeTarget "TRC-BSA" */;
+			buildConfigurationList = 6A57A3F41EB0258800FD06D3 /* Build configuration list for PBXNativeTarget "TRC-BSA" */;
 			buildPhases = (
-				6ABEF60A1EAD47D3001648F4 /* Sources */,
-				6ABEF60B1EAD47D3001648F4 /* Frameworks */,
-				6ABEF60C1EAD47D3001648F4 /* Resources */,
+				6A57A3D31EB0258800FD06D3 /* Sources */,
+				6A57A3D41EB0258800FD06D3 /* Frameworks */,
+				6A57A3D51EB0258800FD06D3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -128,49 +116,49 @@
 			);
 			name = "TRC-BSA";
 			productName = "TRC-BSA";
-			productReference = 6ABEF60E1EAD47D3001648F4 /* TRC-BSA.app */;
+			productReference = 6A57A3D71EB0258800FD06D3 /* TRC-BSA.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6ABEF6211EAD47D4001648F4 /* TRC-BSATests */ = {
+		6A57A3EA1EB0258800FD06D3 /* TRC-BSATests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ABEF62E1EAD47D4001648F4 /* Build configuration list for PBXNativeTarget "TRC-BSATests" */;
+			buildConfigurationList = 6A57A3F71EB0258800FD06D3 /* Build configuration list for PBXNativeTarget "TRC-BSATests" */;
 			buildPhases = (
-				6ABEF61E1EAD47D4001648F4 /* Sources */,
-				6ABEF61F1EAD47D4001648F4 /* Frameworks */,
-				6ABEF6201EAD47D4001648F4 /* Resources */,
+				6A57A3E71EB0258800FD06D3 /* Sources */,
+				6A57A3E81EB0258800FD06D3 /* Frameworks */,
+				6A57A3E91EB0258800FD06D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6ABEF6241EAD47D4001648F4 /* PBXTargetDependency */,
+				6A57A3ED1EB0258800FD06D3 /* PBXTargetDependency */,
 			);
 			name = "TRC-BSATests";
 			productName = "TRC-BSATests";
-			productReference = 6ABEF6221EAD47D4001648F4 /* TRC-BSATests.xctest */;
+			productReference = 6A57A3EB1EB0258800FD06D3 /* TRC-BSATests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6ABEF6061EAD47D3001648F4 /* Project object */ = {
+		6A57A3CF1EB0258800FD06D3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sugam Manocha";
 				TargetAttributes = {
-					6ABEF60D1EAD47D3001648F4 = {
+					6A57A3D61EB0258800FD06D3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
 					};
-					6ABEF6211EAD47D4001648F4 = {
+					6A57A3EA1EB0258800FD06D3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = 6ABEF60D1EAD47D3001648F4;
+						TestTargetID = 6A57A3D61EB0258800FD06D3;
 					};
 				};
 			};
-			buildConfigurationList = 6ABEF6091EAD47D3001648F4 /* Build configuration list for PBXProject "TRC-BSA" */;
+			buildConfigurationList = 6A57A3D21EB0258800FD06D3 /* Build configuration list for PBXProject "TRC-BSA" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -178,29 +166,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 6ABEF6051EAD47D3001648F4;
-			productRefGroup = 6ABEF60F1EAD47D3001648F4 /* Products */;
+			mainGroup = 6A57A3CE1EB0258800FD06D3;
+			productRefGroup = 6A57A3D81EB0258800FD06D3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ABEF60D1EAD47D3001648F4 /* TRC-BSA */,
-				6ABEF6211EAD47D4001648F4 /* TRC-BSATests */,
+				6A57A3D61EB0258800FD06D3 /* TRC-BSA */,
+				6A57A3EA1EB0258800FD06D3 /* TRC-BSATests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6ABEF60C1EAD47D3001648F4 /* Resources */ = {
+		6A57A3D51EB0258800FD06D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABEF61C1EAD47D3001648F4 /* LaunchScreen.storyboard in Resources */,
-				6ABEF6191EAD47D3001648F4 /* Assets.xcassets in Resources */,
-				6ABEF6171EAD47D3001648F4 /* Main.storyboard in Resources */,
+				6A57A3E51EB0258800FD06D3 /* LaunchScreen.storyboard in Resources */,
+				6A57A3E21EB0258800FD06D3 /* Assets.xcassets in Resources */,
+				6A57A3E01EB0258800FD06D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ABEF6201EAD47D4001648F4 /* Resources */ = {
+		6A57A3E91EB0258800FD06D3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -210,47 +198,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6ABEF60A1EAD47D3001648F4 /* Sources */ = {
+		6A57A3D31EB0258800FD06D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABEF6141EAD47D3001648F4 /* ViewController.swift in Sources */,
-				6ABEF6121EAD47D3001648F4 /* AppDelegate.swift in Sources */,
-				6A069E4B1EAD9BC700E7D4E5 /* CalendarView.swift in Sources */,
+				6A57A3DD1EB0258800FD06D3 /* ViewController.swift in Sources */,
+				6A57A3DB1EB0258800FD06D3 /* AppDelegate.swift in Sources */,
+				6A57A3FB1EB0298A00FD06D3 /* webViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6ABEF61E1EAD47D4001648F4 /* Sources */ = {
+		6A57A3E71EB0258800FD06D3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ABEF6271EAD47D4001648F4 /* TRC_BSATests.swift in Sources */,
+				6A57A3F01EB0258800FD06D3 /* TRC_BSATests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6ABEF6241EAD47D4001648F4 /* PBXTargetDependency */ = {
+		6A57A3ED1EB0258800FD06D3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6ABEF60D1EAD47D3001648F4 /* TRC-BSA */;
-			targetProxy = 6ABEF6231EAD47D4001648F4 /* PBXContainerItemProxy */;
+			target = 6A57A3D61EB0258800FD06D3 /* TRC-BSA */;
+			targetProxy = 6A57A3EC1EB0258800FD06D3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6ABEF6151EAD47D3001648F4 /* Main.storyboard */ = {
+		6A57A3DE1EB0258800FD06D3 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6ABEF6161EAD47D3001648F4 /* Base */,
+				6A57A3DF1EB0258800FD06D3 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6ABEF61A1EAD47D3001648F4 /* LaunchScreen.storyboard */ = {
+		6A57A3E31EB0258800FD06D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6ABEF61B1EAD47D3001648F4 /* Base */,
+				6A57A3E41EB0258800FD06D3 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -258,7 +246,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6ABEF6291EAD47D4001648F4 /* Debug */ = {
+		6A57A3F21EB0258800FD06D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -308,7 +296,7 @@
 			};
 			name = Debug;
 		};
-		6ABEF62A1EAD47D4001648F4 /* Release */ = {
+		6A57A3F31EB0258800FD06D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +339,7 @@
 			};
 			name = Release;
 		};
-		6ABEF62C1EAD47D4001648F4 /* Debug */ = {
+		6A57A3F51EB0258800FD06D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -363,7 +351,7 @@
 			};
 			name = Debug;
 		};
-		6ABEF62D1EAD47D4001648F4 /* Release */ = {
+		6A57A3F61EB0258800FD06D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -375,7 +363,7 @@
 			};
 			name = Release;
 		};
-		6ABEF62F1EAD47D4001648F4 /* Debug */ = {
+		6A57A3F81EB0258800FD06D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -389,7 +377,7 @@
 			};
 			name = Debug;
 		};
-		6ABEF6301EAD47D4001648F4 /* Release */ = {
+		6A57A3F91EB0258800FD06D3 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -406,34 +394,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6ABEF6091EAD47D3001648F4 /* Build configuration list for PBXProject "TRC-BSA" */ = {
+		6A57A3D21EB0258800FD06D3 /* Build configuration list for PBXProject "TRC-BSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ABEF6291EAD47D4001648F4 /* Debug */,
-				6ABEF62A1EAD47D4001648F4 /* Release */,
+				6A57A3F21EB0258800FD06D3 /* Debug */,
+				6A57A3F31EB0258800FD06D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ABEF62B1EAD47D4001648F4 /* Build configuration list for PBXNativeTarget "TRC-BSA" */ = {
+		6A57A3F41EB0258800FD06D3 /* Build configuration list for PBXNativeTarget "TRC-BSA" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ABEF62C1EAD47D4001648F4 /* Debug */,
-				6ABEF62D1EAD47D4001648F4 /* Release */,
+				6A57A3F51EB0258800FD06D3 /* Debug */,
+				6A57A3F61EB0258800FD06D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		6ABEF62E1EAD47D4001648F4 /* Build configuration list for PBXNativeTarget "TRC-BSATests" */ = {
+		6A57A3F71EB0258800FD06D3 /* Build configuration list for PBXNativeTarget "TRC-BSATests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6ABEF62F1EAD47D4001648F4 /* Debug */,
-				6ABEF6301EAD47D4001648F4 /* Release */,
+				6A57A3F81EB0258800FD06D3 /* Debug */,
+				6A57A3F91EB0258800FD06D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 6ABEF6061EAD47D3001648F4 /* Project object */;
+	rootObject = 6A57A3CF1EB0258800FD06D3 /* Project object */;
 }

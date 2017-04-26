@@ -1,19 +1,19 @@
 //
-//  CalendarView.swift
+//  webViewController.swift
 //  TRC-BSA
 //
-//  Created by Sugam Manocha on 4/23/17.
+//  Created by Sugam Manocha on 4/25/17.
 //  Copyright © 2017 Sugam Manocha. All rights reserved.
 //
 
 import UIKit
 import WebKit
 
-class CalendarView: UIViewController, WKUIDelegate{
+class webViewController: UIViewController, WKUIDelegate {
 
-    var webView: WKWebView!
+    var webView:WKWebView!
     var myURL = URL(string:"http://www.apple.com")
-    
+
     override func loadView() {
         let webConfiguration = WKWebViewConfiguration()
         webView = WKWebView(frame: .zero, configuration: webConfiguration)
@@ -22,16 +22,20 @@ class CalendarView: UIViewController, WKUIDelegate{
     }
     
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
         super.viewDidLoad()
         print(buttonClicked + " if this is blank the button click did not go through");
         switch buttonClicked{
         case "cbt": myURL = URL(string: "http://www.trcbsa.org/Calendar")
         case "jsb": myURL = URL(string: "https://beascout.scouting.org/")
+        case "msbt": myURL = URL(string:"https://my.scouting.org/")
+        case "dbt": myURL = URL(string:"https://www.kintera.org/AutoGen/Simple/Donor.asp?ievent=1050292&en=5eKzHIPjH4KIJSMmG3JFLOMwFfICJOOpF6JMIUOwEoLZE")
+        
         default: myURL = URL(string:"http://www.apple.com")
         }
         let myRequest = URLRequest(url: myURL!)
         webView.load(myRequest)
+
     }
 
     override func didReceiveMemoryWarning() {

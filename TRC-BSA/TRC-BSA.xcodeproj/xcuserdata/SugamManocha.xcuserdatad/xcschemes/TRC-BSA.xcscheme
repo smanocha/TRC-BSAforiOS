@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6ABEF60D1EAD47D3001648F4"
+               BlueprintIdentifier = "6A57A3D61EB0258800FD06D3"
                BuildableName = "TRC-BSA.app"
                BlueprintName = "TRC-BSA"
                ReferencedContainer = "container:TRC-BSA.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6ABEF6211EAD47D4001648F4"
+               BlueprintIdentifier = "6A57A3EA1EB0258800FD06D3"
                BuildableName = "TRC-BSATests.xctest"
                BlueprintName = "TRC-BSATests"
                ReferencedContainer = "container:TRC-BSA.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6ABEF60D1EAD47D3001648F4"
+            BlueprintIdentifier = "6A57A3D61EB0258800FD06D3"
             BuildableName = "TRC-BSA.app"
             BlueprintName = "TRC-BSA"
             ReferencedContainer = "container:TRC-BSA.xcodeproj">
@@ -65,7 +65,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6ABEF60D1EAD47D3001648F4"
+            BlueprintIdentifier = "6A57A3D61EB0258800FD06D3"
             BuildableName = "TRC-BSA.app"
             BlueprintName = "TRC-BSA"
             ReferencedContainer = "container:TRC-BSA.xcodeproj">
@@ -84,7 +84,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6ABEF60D1EAD47D3001648F4"
+            BlueprintIdentifier = "6A57A3D61EB0258800FD06D3"
             BuildableName = "TRC-BSA.app"
             BlueprintName = "TRC-BSA"
             ReferencedContainer = "container:TRC-BSA.xcodeproj">
