@@ -14,6 +14,7 @@
 		6A57A3E51EB0258800FD06D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A57A3E31EB0258800FD06D3 /* LaunchScreen.storyboard */; };
 		6A57A3F01EB0258800FD06D3 /* TRC_BSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3EF1EB0258800FD06D3 /* TRC_BSATests.swift */; };
 		6A57A3FB1EB0298A00FD06D3 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */; };
+		6AD6A5941EB06513006D967C /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6A5931EB06513006D967C /* mapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		6A57A3EF1EB0258800FD06D3 /* TRC_BSATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TRC_BSATests.swift; sourceTree = "<group>"; };
 		6A57A3F11EB0258800FD06D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		6AD6A5931EB06513006D967C /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				6A57A3DA1EB0258800FD06D3 /* AppDelegate.swift */,
 				6A57A3DC1EB0258800FD06D3 /* ViewController.swift */,
 				6A57A3DE1EB0258800FD06D3 /* Main.storyboard */,
+				6AD6A5931EB06513006D967C /* mapViewController.swift */,
 				6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */,
 				6A57A3E11EB0258800FD06D3 /* Assets.xcassets */,
 				6A57A3E31EB0258800FD06D3 /* LaunchScreen.storyboard */,
@@ -205,6 +208,7 @@
 				6A57A3DD1EB0258800FD06D3 /* ViewController.swift in Sources */,
 				6A57A3DB1EB0258800FD06D3 /* AppDelegate.swift in Sources */,
 				6A57A3FB1EB0298A00FD06D3 /* webViewController.swift in Sources */,
+				6AD6A5941EB06513006D967C /* mapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -410,6 +414,7 @@
 				6A57A3F61EB0258800FD06D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6A57A3F71EB0258800FD06D3 /* Build configuration list for PBXNativeTarget "TRC-BSATests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +423,7 @@
 				6A57A3F91EB0258800FD06D3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

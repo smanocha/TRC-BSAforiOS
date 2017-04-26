@@ -55,28 +55,37 @@
                                             <segue destination="hQ6-1B-6x5" kind="show" id="vDd-uf-QL5"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bST-dP-smP">
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bST-dP-smP">
                                         <rect key="frame" x="-19" y="152" width="184" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <state key="normal" image="donateBt"/>
                                         <connections>
                                             <action selector="donateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LqR-HI-0oC"/>
                                             <segue destination="hQ6-1B-6x5" kind="show" id="os8-fB-1vI"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hR7-6v-qZB">
+                                        <rect key="frame" x="-19" y="200" width="184" height="40"/>
+                                        <state key="normal" image="mapButton"/>
+                                        <connections>
+                                            <segue destination="NSH-a5-eCi" kind="show" id="BfT-Bf-1qi"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstItem="duJ-kk-rUJ" firstAttribute="leading" secondItem="dBC-ih-Hlr" secondAttribute="leading" constant="8" id="31R-a3-7tv"/>
+                                    <constraint firstAttribute="bottom" secondItem="hR7-6v-qZB" secondAttribute="bottom" constant="363" id="9wZ-qE-VhT"/>
                                     <constraint firstAttribute="bottom" secondItem="LZJ-6n-EEK" secondAttribute="bottom" constant="459" id="B9i-fb-OQP"/>
                                     <constraint firstItem="LZJ-6n-EEK" firstAttribute="leading" secondItem="dBC-ih-Hlr" secondAttribute="leading" constant="8" id="FQL-Zg-0fY"/>
                                     <constraint firstItem="LZJ-6n-EEK" firstAttribute="top" secondItem="30j-PJ-uCf" secondAttribute="bottom" constant="8" id="PbE-BQ-a2n"/>
                                     <constraint firstItem="30j-PJ-uCf" firstAttribute="leading" secondItem="dBC-ih-Hlr" secondAttribute="leading" constant="8" id="TLd-Li-hdt"/>
                                     <constraint firstItem="30j-PJ-uCf" firstAttribute="top" secondItem="duJ-kk-rUJ" secondAttribute="bottom" constant="8" id="WjA-G1-6tb"/>
                                     <constraint firstAttribute="bottom" secondItem="30j-PJ-uCf" secondAttribute="bottom" constant="507" id="dSh-pI-u64"/>
+                                    <constraint firstItem="hR7-6v-qZB" firstAttribute="top" secondItem="bST-dP-smP" secondAttribute="bottom" constant="8" id="gdX-rf-Azu"/>
                                     <constraint firstAttribute="bottom" secondItem="duJ-kk-rUJ" secondAttribute="bottom" constant="555" id="ght-l1-jwi"/>
                                     <constraint firstAttribute="trailing" secondItem="30j-PJ-uCf" secondAttribute="trailing" constant="2" id="krW-gl-pd6"/>
                                     <constraint firstAttribute="width" constant="140" id="nij-w2-Z6c"/>
+                                    <constraint firstItem="hR7-6v-qZB" firstAttribute="leading" secondItem="dBC-ih-Hlr" secondAttribute="leading" constant="-19" id="oPR-lg-eFc"/>
                                     <constraint firstItem="duJ-kk-rUJ" firstAttribute="top" secondItem="dBC-ih-Hlr" secondAttribute="top" constant="8" id="oaJ-Sd-XwR"/>
                                     <constraint firstAttribute="trailing" secondItem="duJ-kk-rUJ" secondAttribute="trailing" constant="2" id="suL-cm-spj"/>
                                 </constraints>
@@ -124,7 +133,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ekk-O5-v9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1494" y="181"/>
+            <point key="canvasLocation" x="1522" y="137"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="pkg-1E-Cij">
+            <objects>
+                <viewController id="NSH-a5-eCi" customClass="mapViewController" customModule="TRC_BSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tt6-7f-ncm"/>
+                        <viewControllerLayoutGuide type="bottom" id="rvg-B7-cBd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T7N-z0-QSN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tka-Me-OOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2223" y="136"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OOA-En-qT6">
@@ -151,6 +178,7 @@
         <image name="calendarBT" width="130" height="40"/>
         <image name="donateBt" width="130" height="40"/>
         <image name="joinScoutsBt" width="130" height="40"/>
+        <image name="mapButton" width="130" height="40"/>
         <image name="menuPane" width="764" height="2664"/>
         <image name="myScoutingBt" width="130" height="40"/>
     </resources>
