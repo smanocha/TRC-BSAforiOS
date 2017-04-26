@@ -29,9 +29,12 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
         
     }
+
     @IBAction func donateButton(_ sender: Any) {
         buttonClicked = "dbt"
+
     }
+
     @IBAction func myScoutingButton(_ sender: Any) {
         buttonClicked = "msbt"
     }
