@@ -7,12 +7,20 @@
 //
 
 import UIKit
+import MapKit
 
 class mapViewController: UIViewController {
 
+    
+    @IBOutlet weak var Oneonta: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.Oneonta.image = UIImage(named:"osrCampMap")
+        
+        //make the image fit
+        
+        
         // Do any additional setup after loading the view.
     }
 
@@ -33,3 +41,4 @@ class mapViewController: UIViewController {
     */
 
 }
+
