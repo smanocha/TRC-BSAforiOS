@@ -18,8 +18,6 @@ class mapViewController: UIViewController {
         
         self.Oneonta.image = UIImage(named:"osrCampMap")
         
-        //make the image fit
-        
         
         // Do any additional setup after loading the view.
     }
@@ -39,6 +37,13 @@ class mapViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    
+    
+    @IBOutlet weak var sampButton: UIButton!
+    @IBAction func sampleButton(sender: UIButton){
+        
+    }
 
 }
 

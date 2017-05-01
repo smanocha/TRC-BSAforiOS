@@ -145,15 +145,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pRR-yd-Aej">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="osrCampMap" translatesAutoresizingMaskIntoConstraints="NO" id="pRR-yd-Aej">
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oa5-4b-8ZB">
+                                <rect key="frame" x="109" y="156" width="48" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="Oneonta" destination="pRR-yd-Aej" id="aM9-EG-1wt"/>
+                        <outlet property="sampButton" destination="Oa5-4b-8ZB" id="0wf-tJ-vEU"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tka-Me-OOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -188,6 +196,7 @@
         <image name="mapButton" width="130" height="40"/>
         <image name="menuPane" width="764" height="2664"/>
         <image name="myScoutingBt" width="130" height="40"/>
+        <image name="osrCampMap" width="2550" height="3300"/>
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="dbl-fX-SPL"/>
