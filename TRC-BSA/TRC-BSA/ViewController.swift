@@ -26,10 +26,7 @@ class ViewController: UIViewController {
         
     }
 
-    @IBAction func donateButton(_ sender: Any) {
-        buttonClicked = "dbt"
 
-    }
     @IBAction func calendarButton(_ sender: Any) {
         buttonClicked = "cbt"
 
