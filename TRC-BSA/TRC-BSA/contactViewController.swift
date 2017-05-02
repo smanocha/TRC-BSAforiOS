@@ -8,7 +8,8 @@
 
 import UIKit
 
-class contactViewController: UIViewController {
+var contactsArray = [Contact]()
+class contactViewController: UIViewController{
 
     override func viewDidLoad() {
         super.viewDidLoad()

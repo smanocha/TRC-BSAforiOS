@@ -15,6 +15,8 @@
 		6A57A3F01EB0258800FD06D3 /* TRC_BSATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3EF1EB0258800FD06D3 /* TRC_BSATests.swift */; };
 		6A57A3FB1EB0298A00FD06D3 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */; };
 		6A8F44171EB8192200650E3D /* contactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8F44161EB8192200650E3D /* contactViewController.swift */; };
+		6A8F44191EB81D7300650E3D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8F44181EB81D7300650E3D /* Contact.swift */; };
+		6A8F441B1EB8238300650E3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F441A1EB8238200650E3D /* GoogleService-Info.plist */; };
 		6AD6A5941EB06513006D967C /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6A5931EB06513006D967C /* mapViewController.swift */; };
 		BF1756881EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF1756851EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf */; };
 		BF1756891EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF1756861EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf */; };
@@ -44,6 +46,8 @@
 		6A57A3F11EB0258800FD06D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
 		6A8F44161EB8192200650E3D /* contactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactViewController.swift; sourceTree = "<group>"; };
+		6A8F44181EB81D7300650E3D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6A8F441A1EB8238200650E3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AD6A5931EB06513006D967C /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		BF1756851EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "2017 OSR Program Guide - Craft Lodge Page.pdf"; path = "../../../../Downloads/2017 OSR Program Guide - Craft Lodge Page.pdf"; sourceTree = "<group>"; };
 		BF1756861EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "2017 OSR Program Guide - Communications Page.pdf"; path = "../../../../Downloads/2017 OSR Program Guide - Communications Page.pdf"; sourceTree = "<group>"; };
@@ -91,6 +95,7 @@
 			children = (
 				BF1756841EB81BB700175D90 /* MapPDF */,
 				6A57A3DA1EB0258800FD06D3 /* AppDelegate.swift */,
+				6A8F441A1EB8238200650E3D /* GoogleService-Info.plist */,
 				6A57A3DC1EB0258800FD06D3 /* ViewController.swift */,
 				6A57A3DE1EB0258800FD06D3 /* Main.storyboard */,
 				6A8F44161EB8192200650E3D /* contactViewController.swift */,
@@ -99,6 +104,7 @@
 				6A57A3E11EB0258800FD06D3 /* Assets.xcassets */,
 				6A57A3E31EB0258800FD06D3 /* LaunchScreen.storyboard */,
 				6A57A3E61EB0258800FD06D3 /* Info.plist */,
+				6A8F44181EB81D7300650E3D /* Contact.swift */,
 			);
 			path = "TRC-BSA";
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 			files = (
 				BF1756891EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf in Resources */,
 				6A57A3E51EB0258800FD06D3 /* LaunchScreen.storyboard in Resources */,
+				6A8F441B1EB8238300650E3D /* GoogleService-Info.plist in Resources */,
 				6A57A3E21EB0258800FD06D3 /* Assets.xcassets in Resources */,
 				BF17568A1EB81BD600175D90 /* 2017 OSR Program Guide - Aquatics Page.pdf in Resources */,
 				BF1756881EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf in Resources */,
@@ -228,6 +235,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A8F44191EB81D7300650E3D /* Contact.swift in Sources */,
 				6A8F44171EB8192200650E3D /* contactViewController.swift in Sources */,
 				6A57A3DD1EB0258800FD06D3 /* ViewController.swift in Sources */,
 				6A57A3DB1EB0258800FD06D3 /* AppDelegate.swift in Sources */,
