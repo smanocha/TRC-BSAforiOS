@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import SafariServices
 var buttonClicked = ""
 
 class ViewController: UIViewController {
@@ -27,9 +28,13 @@ class ViewController: UIViewController {
     }
 
 
+    let url = "http://www.trcbsa.org/Calendar"
+
     @IBAction func calendarButton(_ sender: Any) {
         buttonClicked = "cbt"
 
+        let sfViewController = SFSafariViewController(url: NSURL(string: self.url)! as URL, entersReaderIfAvailable: false)
+        self.present(sfViewController, animated: true, completion: nil)
     }
 
 

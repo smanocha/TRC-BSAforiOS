@@ -72,7 +72,6 @@
                                         <state key="normal" title="Calendar"/>
                                         <connections>
                                             <action selector="calendarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ac9-yj-mew"/>
-                                            <segue destination="hQ6-1B-6x5" kind="show" id="bUp-qL-ljU"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYV-rW-sad">
@@ -150,7 +149,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ekk-O5-v9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1494" y="181"/>
+            <point key="canvasLocation" x="1636" y="137"/>
         </scene>
         <!--Map View Controller-->
         <scene sceneID="pkg-1E-Cij">
@@ -203,7 +202,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tka-Me-OOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2248.8000000000002" y="179.46026986506749"/>
+            <point key="canvasLocation" x="2658" y="22"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OOA-En-qT6">
@@ -232,6 +231,6 @@
         <image name="osrCampMap" width="2550" height="3300"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="bUp-qL-ljU"/>
+        <segue reference="EtK-qm-yF8"/>
     </inferredMetricsTieBreakers>
 </document>
