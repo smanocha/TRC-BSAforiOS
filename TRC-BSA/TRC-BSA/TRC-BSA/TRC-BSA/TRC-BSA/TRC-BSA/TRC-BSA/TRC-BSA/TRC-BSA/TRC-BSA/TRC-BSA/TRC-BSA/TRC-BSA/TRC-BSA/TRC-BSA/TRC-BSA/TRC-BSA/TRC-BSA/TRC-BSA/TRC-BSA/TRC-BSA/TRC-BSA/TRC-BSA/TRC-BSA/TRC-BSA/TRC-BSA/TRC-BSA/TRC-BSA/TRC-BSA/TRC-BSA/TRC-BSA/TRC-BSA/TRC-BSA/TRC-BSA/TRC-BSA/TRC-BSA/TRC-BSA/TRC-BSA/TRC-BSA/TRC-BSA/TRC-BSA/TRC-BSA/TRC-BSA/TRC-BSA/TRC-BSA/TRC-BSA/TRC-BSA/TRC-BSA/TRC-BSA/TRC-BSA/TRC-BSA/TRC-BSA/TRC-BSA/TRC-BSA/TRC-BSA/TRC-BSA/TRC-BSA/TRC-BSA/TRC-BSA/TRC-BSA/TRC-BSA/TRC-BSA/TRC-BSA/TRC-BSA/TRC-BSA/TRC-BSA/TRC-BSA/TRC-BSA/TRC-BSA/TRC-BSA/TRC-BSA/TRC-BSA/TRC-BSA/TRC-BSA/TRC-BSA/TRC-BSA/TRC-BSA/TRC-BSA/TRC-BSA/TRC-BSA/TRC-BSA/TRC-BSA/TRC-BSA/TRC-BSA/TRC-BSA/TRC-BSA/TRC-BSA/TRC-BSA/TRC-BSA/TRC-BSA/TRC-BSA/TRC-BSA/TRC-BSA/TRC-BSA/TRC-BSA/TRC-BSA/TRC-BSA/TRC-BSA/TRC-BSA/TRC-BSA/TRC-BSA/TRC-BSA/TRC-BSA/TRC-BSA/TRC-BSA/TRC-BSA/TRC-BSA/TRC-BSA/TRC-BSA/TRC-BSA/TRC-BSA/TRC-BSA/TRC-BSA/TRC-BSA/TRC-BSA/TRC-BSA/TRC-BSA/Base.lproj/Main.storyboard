@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="8YM-WJ-Q28">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Contact View Controller-->
+        <scene sceneID="IGJ-BQ-CQA">
+            <objects>
+                <viewController id="8Df-dP-kgB" customClass="contactViewController" customModule="TRC_BSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="zcb-ge-C4a"/>
+                        <viewControllerLayoutGuide type="bottom" id="Ahq-ip-tFD"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2IB-xe-gob">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z3Y-SV-OqI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="-517"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TRC_BSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="MainBG" translatesAutoresizingMaskIntoConstraints="NO" id="vNw-UQ-lWA">
+                                <rect key="frame" x="0.0" y="44" width="375" height="623"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dBC-ih-Hlr">
+                                <rect key="frame" x="0.0" y="64" width="140" height="603"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="menuPane" translatesAutoresizingMaskIntoConstraints="NO" id="G9A-wn-aHr">
+                                        <rect key="frame" x="0.0" y="0.0" width="140" height="603"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" hasAttributedTitle="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Seu-f8-6dN">
+                                        <rect key="frame" x="-2" y="152" width="130" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal">
+                                            <attributedString key="attributedTitle">
+                                                <fragment content="Contacts">
+                                                    <attributes>
+                                                        <font key="NSFont" size="16" name=".AppleSystemUIFont"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
+                                        </state>
+                                        <connections>
+                                            <segue destination="8Df-dP-kgB" kind="show" id="DoE-vk-fYO"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Llo-7C-xoZ">
+                                        <rect key="frame" x="1" y="290" width="130" height="65"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Calendar"/>
+                                        <connections>
+                                            <action selector="calendarButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ac9-yj-mew"/>
+                                            <segue destination="hQ6-1B-6x5" kind="show" id="bUp-qL-ljU"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mYV-rW-sad">
+                                        <rect key="frame" x="0.0" y="8" width="132" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Join Scouts"/>
+                                        <connections>
+                                            <action selector="joinScoutsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eXM-IY-gvu"/>
+                                            <segue destination="hQ6-1B-6x5" kind="show" id="1rA-3T-lmS"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bHJ-Wb-PzE">
+                                        <rect key="frame" x="0.0" y="80" width="127" height="64"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="My Scouting"/>
+                                        <connections>
+                                            <action selector="myScoutingButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kPT-PU-4JR"/>
+                                            <segue destination="hQ6-1B-6x5" kind="show" id="EtK-qm-yF8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O6q-ct-GLC">
+                                        <rect key="frame" x="3" y="221" width="127" height="61"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <state key="normal" title="Map"/>
+                                        <connections>
+                                            <segue destination="NSH-a5-eCi" kind="show" id="fEX-AW-p6Z"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="nij-w2-Z6c"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dBC-ih-Hlr" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-140" id="2Wu-ya-TV7"/>
+                            <constraint firstItem="vNw-UQ-lWA" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="5Um-Gw-CGa"/>
+                            <constraint firstAttribute="trailing" secondItem="vNw-UQ-lWA" secondAttribute="trailing" id="OBU-IZ-Py0"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="vNw-UQ-lWA" secondAttribute="bottom" id="c70-Bg-wLj"/>
+                            <constraint firstItem="vNw-UQ-lWA" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="44" id="jkQ-8f-Mek"/>
+                            <constraint firstItem="dBC-ih-Hlr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="opm-Bw-0Sj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="dBC-ih-Hlr" secondAttribute="bottom" id="wAP-ed-8a1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="eUI-Zo-ikQ">
+                        <barButtonItem key="leftBarButtonItem" image="MenuBT" id="vtk-NB-AgU">
+                            <connections>
+                                <action selector="openMenu:" destination="BYZ-38-t0r" id="o5O-iA-z5Z"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="leadingConstraint" destination="2Wu-ya-TV7" id="wNW-3l-kqF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="860" y="137.18140929535232"/>
+        </scene>
+        <!--Web View Controller-->
+        <scene sceneID="tLo-QW-9hT">
+            <objects>
+                <viewController id="hQ6-1B-6x5" customClass="webViewController" customModule="TRC_BSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C4K-yY-mO8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Fjz-xu-ysv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zcw-5q-scO">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ekk-O5-v9s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1494" y="181"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="pkg-1E-Cij">
+            <objects>
+                <viewController id="NSH-a5-eCi" customClass="mapViewController" customModule="TRC_BSA" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tt6-7f-ncm"/>
+                        <viewControllerLayoutGuide type="bottom" id="rvg-B7-cBd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T7N-z0-QSN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="osrCampMap" translatesAutoresizingMaskIntoConstraints="NO" id="pRR-yd-Aej">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oa5-4b-8ZB">
+                                <rect key="frame" x="109" y="156" width="48" height="15"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="Oneonta" destination="pRR-yd-Aej" id="aM9-EG-1wt"/>
+                        <outlet property="sampButton" destination="Oa5-4b-8ZB" id="0wf-tJ-vEU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tka-Me-OOP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2248.8000000000002" y="179.46026986506749"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OOA-En-qT6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8YM-WJ-Q28" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="1uV-kK-4vW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="vHU-yS-yuk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dht-9j-IEd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="137.18140929535232"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="MainBG" width="750" height="1334"/>
+        <image name="MenuBT" width="48" height="48"/>
+        <image name="menuPane" width="764" height="2664"/>
+        <image name="osrCampMap" width="2550" height="3300"/>
+    </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="bUp-qL-ljU"/>
+    </inferredMetricsTieBreakers>
+</document>
