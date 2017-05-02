@@ -13,9 +13,10 @@ class mapViewController: UIViewController {
 
     //the file names need to be changed bc it includes the year
     //and the file is not static
-    let orchardLakePDF = "2017 OSR Program Guide - Aquatics Page"
-    let craftLodgePDF = "2017 OSR Program Guide - Craft Lodge Page"
-    let councilHousePDF = "2017 OSR Program Guide - Communications Page"
+    
+    let orchardLakePDF = "2017-OSR-Program-Guide-Aquatics-Page"
+    let craftLodgePDF = "2017-OSR-Program-Guide-Craft-Lodge-Page"
+    let councilHousePDF = "2017-OSR-Program-Guide-Communications-Page"
     
     
     @IBOutlet weak var Oneonta: UIImageView!
@@ -45,6 +46,7 @@ class mapViewController: UIViewController {
     */
     
     
+
     @IBAction func openOrchardLakePDF(_ sender: Any) {
         if let url = Bundle.main.url(forResource: orchardLakePDF, withExtension: "pdf"){
             let webView = UIWebView(frame: self.view.frame)
@@ -53,26 +55,24 @@ class mapViewController: UIViewController {
             self.view.addSubview(webView)
         }
     }
-    
+
     @IBAction func openCraftLodgePDF(_ sender: Any) {
         if let url = Bundle.main.url(forResource: craftLodgePDF, withExtension: "pdf"){
             let webView = UIWebView(frame: self.view.frame)
-            let urlRequest = URLRequest(url: url)
+            let urlRequest = URLRequest(url:url)
             webView.loadRequest(urlRequest as URLRequest)
             self.view.addSubview(webView)
         }
-
     }
     
-
     @IBAction func openCouncilHousePDF(_ sender: Any) {
         if let url = Bundle.main.url(forResource: councilHousePDF, withExtension: "pdf"){
             let webView = UIWebView(frame: self.view.frame)
-            let urlRequest = URLRequest(url: url)
+            let urlRequest = URLRequest(url:url)
             webView.loadRequest(urlRequest as URLRequest)
             self.view.addSubview(webView)
         }
     }
-
+    
 }
 
