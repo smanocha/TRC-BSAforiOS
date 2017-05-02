@@ -17,12 +17,8 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func calendarButton(_ sender: Any) {
-        buttonClicked = "cbt"
-    }
     @IBAction func joinScoutsButton(_ sender: Any) {
         buttonClicked = "jsb"
-
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,11 +30,16 @@ class ViewController: UIViewController {
         buttonClicked = "dbt"
 
     }
+    @IBAction func calendarButton(_ sender: Any) {
+        buttonClicked = "cbt"
+
+    }
+
 
     @IBAction func myScoutingButton(_ sender: Any) {
         buttonClicked = "msbt"
-    }
 
+    }
     @IBAction func openMenu(_ sender: Any) {
         if(menuShowing){
             leadingConstraint.constant = -140
