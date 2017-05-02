@@ -21,10 +21,10 @@
 		6AAE57AF1EB835CE0050CDB8 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1DAFED1EB833A600F72558 /* GoogleToolboxForMac.framework */; };
 		6AAE57B01EB835D40050CDB8 /* Pods_TRC_BSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1DAFF11EB833A600F72558 /* Pods_TRC_BSATests.framework */; };
 		6AAE57B21EB835EF0050CDB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAE57B11EB835EF0050CDB8 /* Foundation.framework */; };
+		6AAE57B41EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B31EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf */; };
+		6AAE57B61EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */; };
+		6AAE57B81EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */; };
 		6AD6A5941EB06513006D967C /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6A5931EB06513006D967C /* mapViewController.swift */; };
-		BF1756881EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF1756851EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf */; };
-		BF1756891EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF1756861EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf */; };
-		BF17568A1EB81BD600175D90 /* 2017 OSR Program Guide - Aquatics Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF1756871EB81BD600175D90 /* 2017 OSR Program Guide - Aquatics Page.pdf */; };
 		C395F376F24B155B4A086D2F /* Pods_TRC_BSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B240F58BEB91E884B93FCC /* Pods_TRC_BSATests.framework */; };
 /* End PBXBuildFile section */
 
@@ -77,12 +77,12 @@
 		6A8F44181EB81D7300650E3D /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		6A8F441A1EB8238200650E3D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		6AAE57B11EB835EF0050CDB8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6AAE57B31EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Aquatics-Page.pdf"; sourceTree = "<group>"; };
+		6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Communications-Page.pdf"; sourceTree = "<group>"; };
+		6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Craft-Lodge-Page.pdf"; sourceTree = "<group>"; };
 		6AD6A5931EB06513006D967C /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
 		853949E9AA563E7991E3DE1C /* Pods-TRC-BSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSA/Pods-TRC-BSA.release.xcconfig"; sourceTree = "<group>"; };
 		8577967C41D1B8EE0528A88D /* Pods-TRC-BSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSATests/Pods-TRC-BSATests.release.xcconfig"; sourceTree = "<group>"; };
-		BF1756851EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "2017 OSR Program Guide - Craft Lodge Page.pdf"; path = "../../../../Downloads/2017 OSR Program Guide - Craft Lodge Page.pdf"; sourceTree = "<group>"; };
-		BF1756861EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "2017 OSR Program Guide - Communications Page.pdf"; path = "../../../../Downloads/2017 OSR Program Guide - Communications Page.pdf"; sourceTree = "<group>"; };
-		BF1756871EB81BD600175D90 /* 2017 OSR Program Guide - Aquatics Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; name = "2017 OSR Program Guide - Aquatics Page.pdf"; path = "../../../../Downloads/2017 OSR Program Guide - Aquatics Page.pdf"; sourceTree = "<group>"; };
 		BFED21C8204BDBDA4769B9CF /* Pods-TRC-BSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSATests/Pods-TRC-BSATests.debug.xcconfig"; sourceTree = "<group>"; };
 		F97FE0C6B7D39915DB9DBF51 /* Pods_TRC_BSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRC_BSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B240F58BEB91E884B93FCC /* Pods_TRC_BSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRC_BSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -183,9 +183,9 @@
 		BF1756841EB81BB700175D90 /* MapPDF */ = {
 			isa = PBXGroup;
 			children = (
-				BF1756851EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf */,
-				BF1756861EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf */,
-				BF1756871EB81BD600175D90 /* 2017 OSR Program Guide - Aquatics Page.pdf */,
+				6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */,
+				6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */,
+				6AAE57B31EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf */,
 			);
 			name = MapPDF;
 			sourceTree = "<group>";
@@ -321,12 +321,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF1756891EB81BD600175D90 /* 2017 OSR Program Guide - Communications Page.pdf in Resources */,
+				6AAE57B61EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf in Resources */,
 				6A57A3E51EB0258800FD06D3 /* LaunchScreen.storyboard in Resources */,
 				6A8F441B1EB8238300650E3D /* GoogleService-Info.plist in Resources */,
 				6A57A3E21EB0258800FD06D3 /* Assets.xcassets in Resources */,
-				BF17568A1EB81BD600175D90 /* 2017 OSR Program Guide - Aquatics Page.pdf in Resources */,
-				BF1756881EB81BD600175D90 /* 2017 OSR Program Guide - Craft Lodge Page.pdf in Resources */,
+				6AAE57B41EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf in Resources */,
+				6AAE57B81EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf in Resources */,
 				6A57A3E01EB0258800FD06D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -586,6 +586,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W3YM94VKLJ;
 				INFOPLIST_FILE = "TRC-BSA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SM.TRC-BSA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -601,6 +602,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = W3YM94VKLJ;
 				INFOPLIST_FILE = "TRC-BSA/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "SM.TRC-BSA";
 				PRODUCT_NAME = "$(TARGET_NAME)";
