@@ -20,20 +20,13 @@ class ContactTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        navigationItem.leftBarButtonItem = editButtonItem
-        
+
         print("contact view did load")
         
-        if let savedContacts = loadContacts() {
-            contacts += savedContacts
-            print(savedContacts.count)
+        if(!Contact.loadContacts().isEmpty)
+        {
+            contacts = Contact.loadContacts()
         }
-        else {
-            // Load the sample data.
-            print("sample data loaded")
-            loadSampleContacts()
-        }
-
         self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
@@ -93,8 +86,8 @@ class ContactTableViewController: UITableViewController {
             // Delete the row from the data source
             
             contacts.remove(at: indexPath.row)
-            saveContacts()
-
+            Contact.saveContacts()
+            contacts = Contact.loadContacts()
             tableView.deleteRows(at: [indexPath], with: .fade)
 
         } else if editingStyle == .insert {
@@ -125,6 +118,13 @@ class ContactTableViewController: UITableViewController {
         super.prepare(for: segue, sender: sender)
         
         switch(segue.identifier ?? "") {
+         
+        case "ShowHome":
+            guard segue.destination is ViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            
             
         case "AddItem":
             os_log("Adding a new contact.", log: OSLog.default, type: .debug)
@@ -157,6 +157,7 @@ class ContactTableViewController: UITableViewController {
                 // Update an existing contact.
                 contacts[selectedIndexPath.row] = contact
                 tableView.reloadRows(at: [selectedIndexPath], with: .none)
+                Contact.saveContacts()
             }
             else {
                 // Add a new contact.
@@ -164,37 +165,11 @@ class ContactTableViewController: UITableViewController {
                 
                 contacts.append(contact)
                 tableView.insertRows(at: [newIndexPath], with: .automatic)
+                Contact.saveContacts()
             }
-            
-            // Save the contacts.
-            saveContacts()
+        
         }
     }
 
-
-    private func loadSampleContacts() {
-     
-        
-        let contact1 = Contact(name: "Sample Contact", phone: "123456781", email: "sample.contact@bsa.com")
-
-        contacts.append(contact1!)
-    }
     
-    private func saveContacts() {
-        
-        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(contacts, toFile: Contact.ArchiveURL.path)
-        
-        if isSuccessfulSave {
-            
-            os_log("Contacts successfully saved.", log: OSLog.default, type: .debug)
-        } else {
-            os_log("Failed to save Contacts...", log: OSLog.default, type: .error)
-        }
-    }
-    
-    private func loadContacts() -> [Contact]?  {
-        print("load contacts")
-        
-        return NSKeyedUnarchiver.unarchiveObject(withFile: Contact.ArchiveURL.path) as? [Contact]
-    }
-}
+   }

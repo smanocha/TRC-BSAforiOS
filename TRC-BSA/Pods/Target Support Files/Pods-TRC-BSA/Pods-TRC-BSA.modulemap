@@ -1,6 +1,0 @@
-framework module Pods_TRC_BSA {
-  umbrella header "Pods-TRC-BSA-umbrella.h"
-
-  export *
-  module * { export * }
-}

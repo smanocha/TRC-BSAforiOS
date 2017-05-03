@@ -17,22 +17,84 @@
             endingLineNumber = "15"
             landmarkName = "Contact"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRC_BSA.Contact.name.getter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "TRC-BSA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SugamManocha/TRC-BSAforiOS/TRC-BSA/TRC-BSA/Contact.swift"
+                  timestampString = "515515486.742963"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRC_BSA.Contact.name.setter : Swift.Optional&lt;Swift.String&gt;"
+                  moduleName = "TRC-BSA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SugamManocha/TRC-BSAforiOS/TRC-BSA/TRC-BSA/Contact.swift"
+                  timestampString = "515515486.745921"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "162">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRC_BSA.Contact.init (name : Swift.String, phone : Swift.String, email : Swift.String) -&gt; Swift.Optional&lt;TRC_BSA.Contact&gt;"
+                  moduleName = "TRC-BSA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SugamManocha/TRC-BSAforiOS/TRC-BSA/TRC-BSA/Contact.swift"
+                  timestampString = "515515486.748857"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "138">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "TRC_BSA.Contact.init (coder : __ObjC.NSCoder) -&gt; TRC_BSA.Contact"
+                  moduleName = "TRC-BSA"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/SugamManocha/TRC-BSAforiOS/TRC-BSA/TRC-BSA/Contact.swift"
+                  timestampString = "515515486.751065"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "83">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "TRC-BSA/Contact.swift"
-            timestampString = "515504095.379976"
+            timestampString = "515516324.094443"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "78"
-            endingLineNumber = "78"
-            landmarkName = "Contact"
-            landmarkType = "3">
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "saveContacts()"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

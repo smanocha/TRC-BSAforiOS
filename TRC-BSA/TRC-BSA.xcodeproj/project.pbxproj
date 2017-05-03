@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		58051CFDB3B84494E8FD9FDA /* Pods_TRC_BSA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F97FE0C6B7D39915DB9DBF51 /* Pods_TRC_BSA.framework */; };
 		6A339AD71EB9CAFD0015114F /* contactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A339AD61EB9CAFD0015114F /* contactTableViewCell.swift */; };
 		6A4632CB1EB97F7100CD15D6 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4632CA1EB97F7100CD15D6 /* ContactTableViewController.swift */; };
 		6A4632CD1EB983B000CD15D6 /* addContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A4632CC1EB983B000CD15D6 /* addContactViewController.swift */; };
@@ -20,8 +19,6 @@
 		6A57A3FB1EB0298A00FD06D3 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A57A3FA1EB0298A00FD06D3 /* webViewController.swift */; };
 		6A8F44191EB81D7300650E3D /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8F44181EB81D7300650E3D /* Contact.swift */; };
 		6A8F441B1EB8238300650E3D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6A8F441A1EB8238200650E3D /* GoogleService-Info.plist */; };
-		6AAE57AF1EB835CE0050CDB8 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1DAFED1EB833A600F72558 /* GoogleToolboxForMac.framework */; };
-		6AAE57B01EB835D40050CDB8 /* Pods_TRC_BSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A1DAFF11EB833A600F72558 /* Pods_TRC_BSATests.framework */; };
 		6AAE57B21EB835EF0050CDB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AAE57B11EB835EF0050CDB8 /* Foundation.framework */; };
 		6AAE57B41EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B31EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf */; };
 		6AAE57B61EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */; };
@@ -31,27 +28,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6A1DAFEC1EB833A600F72558 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A1DAFE61EB833A600F72558 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 669B194854B91FACE0D9BA363FA177B3;
-			remoteInfo = GoogleToolboxForMac;
-		};
-		6A1DAFEE1EB833A600F72558 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A1DAFE61EB833A600F72558 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 739090D44B53C8EC255823063F270651;
-			remoteInfo = "Pods-TRC-BSA";
-		};
-		6A1DAFF01EB833A600F72558 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6A1DAFE61EB833A600F72558 /* Pods.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 69844E5A1667B1E26C4CCB9D3EC18320;
-			remoteInfo = "Pods-TRC-BSATests";
-		};
 		6A57A3EC1EB0258800FD06D3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6A57A3CF1EB0258800FD06D3 /* Project object */;
@@ -62,8 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		34CDC985482AEE98E0FD71E2 /* Pods-TRC-BSA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSA.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSA/Pods-TRC-BSA.debug.xcconfig"; sourceTree = "<group>"; };
-		6A1DAFE61EB833A600F72558 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
 		6A339AD61EB9CAFD0015114F /* contactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = contactTableViewCell.swift; sourceTree = "<group>"; };
 		6A4632CA1EB97F7100CD15D6 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
 		6A4632CC1EB983B000CD15D6 /* addContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addContactViewController.swift; sourceTree = "<group>"; };
@@ -85,9 +59,6 @@
 		6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Communications-Page.pdf"; sourceTree = "<group>"; };
 		6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Craft-Lodge-Page.pdf"; sourceTree = "<group>"; };
 		6AD6A5931EB06513006D967C /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
-		853949E9AA563E7991E3DE1C /* Pods-TRC-BSA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSA.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSA/Pods-TRC-BSA.release.xcconfig"; sourceTree = "<group>"; };
-		8577967C41D1B8EE0528A88D /* Pods-TRC-BSATests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSATests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSATests/Pods-TRC-BSATests.release.xcconfig"; sourceTree = "<group>"; };
-		BFED21C8204BDBDA4769B9CF /* Pods-TRC-BSATests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRC-BSATests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRC-BSATests/Pods-TRC-BSATests.debug.xcconfig"; sourceTree = "<group>"; };
 		F97FE0C6B7D39915DB9DBF51 /* Pods_TRC_BSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRC_BSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B240F58BEB91E884B93FCC /* Pods_TRC_BSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRC_BSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -98,9 +69,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AAE57B21EB835EF0050CDB8 /* Foundation.framework in Frameworks */,
-				6AAE57B01EB835D40050CDB8 /* Pods_TRC_BSATests.framework in Frameworks */,
-				6AAE57AF1EB835CE0050CDB8 /* GoogleToolboxForMac.framework in Frameworks */,
-				58051CFDB3B84494E8FD9FDA /* Pods_TRC_BSA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,24 +93,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6A1DAFE71EB833A600F72558 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6A1DAFED1EB833A600F72558 /* GoogleToolboxForMac.framework */,
-				6A1DAFEF1EB833A600F72558 /* Pods_TRC_BSA.framework */,
-				6A1DAFF11EB833A600F72558 /* Pods_TRC_BSATests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		6A57A3CE1EB0258800FD06D3 = {
 			isa = PBXGroup;
 			children = (
-				6A1DAFE61EB833A600F72558 /* Pods.xcodeproj */,
 				6A57A3D91EB0258800FD06D3 /* TRC-BSA */,
 				6A57A3EE1EB0258800FD06D3 /* TRC-BSATests */,
 				6A57A3D81EB0258800FD06D3 /* Products */,
-				E6F28290BB1204FA8DDBCD2F /* Pods */,
 				2A69AFE52C9160A4E25CAFAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
@@ -196,17 +152,6 @@
 			name = MapPDF;
 			sourceTree = "<group>";
 		};
-		E6F28290BB1204FA8DDBCD2F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				34CDC985482AEE98E0FD71E2 /* Pods-TRC-BSA.debug.xcconfig */,
-				853949E9AA563E7991E3DE1C /* Pods-TRC-BSA.release.xcconfig */,
-				BFED21C8204BDBDA4769B9CF /* Pods-TRC-BSATests.debug.xcconfig */,
-				8577967C41D1B8EE0528A88D /* Pods-TRC-BSATests.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -214,12 +159,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6A57A3F41EB0258800FD06D3 /* Build configuration list for PBXNativeTarget "TRC-BSA" */;
 			buildPhases = (
-				F1CB7DE99D06A5D38A8BF581 /* [CP] Check Pods Manifest.lock */,
 				6A57A3D31EB0258800FD06D3 /* Sources */,
 				6A57A3D41EB0258800FD06D3 /* Frameworks */,
 				6A57A3D51EB0258800FD06D3 /* Resources */,
-				6519F86E000498A339B0096A /* [CP] Embed Pods Frameworks */,
-				D005A11637415F3BE95A30AF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -284,12 +226,6 @@
 			mainGroup = 6A57A3CE1EB0258800FD06D3;
 			productRefGroup = 6A57A3D81EB0258800FD06D3 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 6A1DAFE71EB833A600F72558 /* Products */;
-					ProjectRef = 6A1DAFE61EB833A600F72558 /* Pods.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				6A57A3D61EB0258800FD06D3 /* TRC-BSA */,
@@ -297,30 +233,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		6A1DAFED1EB833A600F72558 /* GoogleToolboxForMac.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = GoogleToolboxForMac.framework;
-			remoteRef = 6A1DAFEC1EB833A600F72558 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6A1DAFEF1EB833A600F72558 /* Pods_TRC_BSA.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_TRC_BSA.framework;
-			remoteRef = 6A1DAFEE1EB833A600F72558 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		6A1DAFF11EB833A600F72558 /* Pods_TRC_BSATests.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = Pods_TRC_BSATests.framework;
-			remoteRef = 6A1DAFF01EB833A600F72558 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		6A57A3D51EB0258800FD06D3 /* Resources */ = {
@@ -362,21 +274,6 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		6519F86E000498A339B0096A /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRC-BSA/Pods-TRC-BSA-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		C05B0543F717931ED0CA9888 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -405,36 +302,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRC-BSATests/Pods-TRC-BSATests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D005A11637415F3BE95A30AF /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRC-BSA/Pods-TRC-BSA-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F1CB7DE99D06A5D38A8BF581 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -588,7 +455,6 @@
 		};
 		6A57A3F51EB0258800FD06D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 34CDC985482AEE98E0FD71E2 /* Pods-TRC-BSA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -604,7 +470,6 @@
 		};
 		6A57A3F61EB0258800FD06D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 853949E9AA563E7991E3DE1C /* Pods-TRC-BSA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -620,7 +485,6 @@
 		};
 		6A57A3F81EB0258800FD06D3 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFED21C8204BDBDA4769B9CF /* Pods-TRC-BSATests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -635,7 +499,6 @@
 		};
 		6A57A3F91EB0258800FD06D3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8577967C41D1B8EE0528A88D /* Pods-TRC-BSATests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
