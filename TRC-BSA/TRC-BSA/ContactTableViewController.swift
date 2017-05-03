@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 var contacts = [Contact]()
 
@@ -19,12 +20,21 @@ class ContactTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        print("load sample")
+        navigationItem.leftBarButtonItem = editButtonItem
+        
+        print("contact view did load")
+        
+        if let savedContacts = loadContacts() {
+            contacts += savedContacts
+            print(savedContacts.count)
+        }
+        else {
+            // Load the sample data.
+            print("sample data loaded")
+            loadSampleContacts()
+        }
 
-        loadSampleContacts()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
+        self.clearsSelectionOnViewWillAppear = false
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem()
@@ -75,17 +85,23 @@ class ContactTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // Override to support editing the table view.
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCellEditingStyle, forRowAt indexPath: IndexPath) {
+        
         if editingStyle == .delete {
             // Delete the row from the data source
+            
+            contacts.remove(at: indexPath.row)
+            saveContacts()
+
             tableView.deleteRows(at: [indexPath], with: .fade)
+
         } else if editingStyle == .insert {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
-    */
+    
 
     /*
     // Override to support rearranging the table view.
@@ -102,22 +118,83 @@ class ContactTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+        
+        super.prepare(for: segue, sender: sender)
+        
+        switch(segue.identifier ?? "") {
+            
+        case "AddItem":
+            os_log("Adding a new contact.", log: OSLog.default, type: .debug)
+            
+        case "ShowDetail":
+            guard let contactDetailViewController = segue.destination as? addContactViewController else {
+                fatalError("Unexpected destination: \(segue.destination)")
+            }
+            
+            guard let selectedContactCell = sender as? contactTableViewCell else {
+                fatalError("Unexpected sender: \(sender)")
+            }
+            
+            guard let indexPath = tableView.indexPath(for: selectedContactCell) else {
+                fatalError("The selected cell is not being displayed by the table")
+            }
+            
+            let selectedContact = contacts[indexPath.row]
+            contactDetailViewController.contact = selectedContact
+            
+        default:
+            fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+        }
     }
-    */
+    
+    @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
+        if let sourceViewController = sender.source as? addContactViewController, let contact = sourceViewController.contact  {
+            
+            if let selectedIndexPath = tableView.indexPathForSelectedRow {
+                // Update an existing contact.
+                contacts[selectedIndexPath.row] = contact
+                tableView.reloadRows(at: [selectedIndexPath], with: .none)
+            }
+            else {
+                // Add a new contact.
+                let newIndexPath = IndexPath(row: contacts.count, section: 0)
+                
+                contacts.append(contact)
+                tableView.insertRows(at: [newIndexPath], with: .automatic)
+            }
+            
+            // Save the contacts.
+            saveContacts()
+        }
+    }
+
 
     private func loadSampleContacts() {
      
         
-        let contact1 = Contact(name: "Linda Li", phone: "1234567", email: "linda.li@stonybrook.edu")
-        let contact2 = Contact(name: "tommy vitamins", phone: "121212121212", email: "tommyg@yahoo.com")
-        let contact3 = Contact(name: "sugam", phone:"69696969",email: "sugammanocha@gmail.com")
-        contacts += [contact1, contact2, contact3]
+        let contact1 = Contact(name: "Sample Contact", phone: "123456781", email: "sample.contact@bsa.com")
+
+        contacts.append(contact1!)
+    }
+    
+    private func saveContacts() {
+        
+        let isSuccessfulSave = NSKeyedArchiver.archiveRootObject(contacts, toFile: Contact.ArchiveURL.path)
+        
+        if isSuccessfulSave {
+            
+            os_log("Contacts successfully saved.", log: OSLog.default, type: .debug)
+        } else {
+            os_log("Failed to save Contacts...", log: OSLog.default, type: .error)
+        }
+    }
+    
+    private func loadContacts() -> [Contact]?  {
+        print("load contacts")
+        
+        return NSKeyedUnarchiver.unarchiveObject(withFile: Contact.ArchiveURL.path) as? [Contact]
     }
 }
