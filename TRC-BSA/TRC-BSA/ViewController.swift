@@ -9,14 +9,14 @@
 import UIKit
 import SafariServices
 var buttonClicked = ""
-
 class ViewController: UIViewController {
 
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     
     var menuShowing = false
     
-    
+    //var contactsArray = [Contact]()
+
     
     @IBAction func joinScoutsButton(_ sender: Any) {
         buttonClicked = "jsb"

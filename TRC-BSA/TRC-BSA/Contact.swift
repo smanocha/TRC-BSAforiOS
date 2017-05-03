@@ -48,7 +48,7 @@ class Contact : NSObject, NSCoding
     {
         let userDefaults = UserDefaults.standard
         
-        let encoded = NSKeyedArchiver.archivedData(withRootObject: contactsArray)
+        let encoded = NSKeyedArchiver.archivedData(withRootObject: contacts)
         userDefaults.set(encoded, forKey: "Contacts")
         userDefaults.synchronize()
     }
