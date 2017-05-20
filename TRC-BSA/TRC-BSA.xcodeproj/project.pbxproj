@@ -24,6 +24,18 @@
 		6AAE57B61EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */; };
 		6AAE57B81EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */; };
 		6AD6A5941EB06513006D967C /* mapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AD6A5931EB06513006D967C /* mapViewController.swift */; };
+		BF96D7BC1ECFF7BA00F8F462 /* 2017 OSR Program Guide -  Nature Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B01ECFF7BA00F8F462 /* 2017 OSR Program Guide -  Nature Page.pdf */; };
+		BF96D7BD1ECFF7BA00F8F462 /* 2017 OSR Program Guide - ATV Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B11ECFF7BA00F8F462 /* 2017 OSR Program Guide - ATV Page.pdf */; };
+		BF96D7BE1ECFF7BA00F8F462 /* 2017 OSR Program Guide - Field Sports Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B21ECFF7BA00F8F462 /* 2017 OSR Program Guide - Field Sports Page.pdf */; };
+		BF96D7BF1ECFF7BA00F8F462 /* 2017 OSR Program Guide - First Year Camper Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B31ECFF7BA00F8F462 /* 2017 OSR Program Guide - First Year Camper Page.pdf */; };
+		BF96D7C01ECFF7BA00F8F462 /* 2017 OSR Program Guide - Health & Saftey Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B41ECFF7BA00F8F462 /* 2017 OSR Program Guide - Health & Saftey Page.pdf */; };
+		BF96D7C11ECFF7BA00F8F462 /* 2017 OSR Program Guide - Older Boy Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B51ECFF7BA00F8F462 /* 2017 OSR Program Guide - Older Boy Page.pdf */; };
+		BF96D7C21ECFF7BA00F8F462 /* 2017 OSR Program Guide - Paintball Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B61ECFF7BA00F8F462 /* 2017 OSR Program Guide - Paintball Page.pdf */; };
+		BF96D7C31ECFF7BA00F8F462 /* 2017 OSR Program Guide - Sales & Finance Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B71ECFF7BA00F8F462 /* 2017 OSR Program Guide - Sales & Finance Page.pdf */; };
+		BF96D7C41ECFF7BA00F8F462 /* 2017 OSR Program Guide - Scout Craft Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B81ECFF7BA00F8F462 /* 2017 OSR Program Guide - Scout Craft Page.pdf */; };
+		BF96D7C51ECFF7BA00F8F462 /* 2017 OSR Program Guide - Shooting Sports Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7B91ECFF7BA00F8F462 /* 2017 OSR Program Guide - Shooting Sports Page.pdf */; };
+		BF96D7C61ECFF7BA00F8F462 /* 2017 OSR Program Guide - STEM Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7BA1ECFF7BA00F8F462 /* 2017 OSR Program Guide - STEM Page.pdf */; };
+		BF96D7C71ECFF7BA00F8F462 /* 2017 OSR Program Guide - The Glaize Page.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BF96D7BB1ECFF7BA00F8F462 /* 2017 OSR Program Guide - The Glaize Page.pdf */; };
 		C395F376F24B155B4A086D2F /* Pods_TRC_BSATests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9B240F58BEB91E884B93FCC /* Pods_TRC_BSATests.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +71,18 @@
 		6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Communications-Page.pdf"; sourceTree = "<group>"; };
 		6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017-OSR-Program-Guide-Craft-Lodge-Page.pdf"; sourceTree = "<group>"; };
 		6AD6A5931EB06513006D967C /* mapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mapViewController.swift; sourceTree = "<group>"; };
+		BF96D7B01ECFF7BA00F8F462 /* 2017 OSR Program Guide -  Nature Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide -  Nature Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B11ECFF7BA00F8F462 /* 2017 OSR Program Guide - ATV Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - ATV Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B21ECFF7BA00F8F462 /* 2017 OSR Program Guide - Field Sports Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Field Sports Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B31ECFF7BA00F8F462 /* 2017 OSR Program Guide - First Year Camper Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - First Year Camper Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B41ECFF7BA00F8F462 /* 2017 OSR Program Guide - Health & Saftey Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Health & Saftey Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B51ECFF7BA00F8F462 /* 2017 OSR Program Guide - Older Boy Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Older Boy Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B61ECFF7BA00F8F462 /* 2017 OSR Program Guide - Paintball Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Paintball Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B71ECFF7BA00F8F462 /* 2017 OSR Program Guide - Sales & Finance Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Sales & Finance Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B81ECFF7BA00F8F462 /* 2017 OSR Program Guide - Scout Craft Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Scout Craft Page.pdf"; sourceTree = "<group>"; };
+		BF96D7B91ECFF7BA00F8F462 /* 2017 OSR Program Guide - Shooting Sports Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - Shooting Sports Page.pdf"; sourceTree = "<group>"; };
+		BF96D7BA1ECFF7BA00F8F462 /* 2017 OSR Program Guide - STEM Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - STEM Page.pdf"; sourceTree = "<group>"; };
+		BF96D7BB1ECFF7BA00F8F462 /* 2017 OSR Program Guide - The Glaize Page.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "2017 OSR Program Guide - The Glaize Page.pdf"; sourceTree = "<group>"; };
 		F97FE0C6B7D39915DB9DBF51 /* Pods_TRC_BSA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRC_BSA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9B240F58BEB91E884B93FCC /* Pods_TRC_BSATests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRC_BSATests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -145,6 +169,18 @@
 		BF1756841EB81BB700175D90 /* MapPDF */ = {
 			isa = PBXGroup;
 			children = (
+				BF96D7B01ECFF7BA00F8F462 /* 2017 OSR Program Guide -  Nature Page.pdf */,
+				BF96D7B11ECFF7BA00F8F462 /* 2017 OSR Program Guide - ATV Page.pdf */,
+				BF96D7B21ECFF7BA00F8F462 /* 2017 OSR Program Guide - Field Sports Page.pdf */,
+				BF96D7B31ECFF7BA00F8F462 /* 2017 OSR Program Guide - First Year Camper Page.pdf */,
+				BF96D7B41ECFF7BA00F8F462 /* 2017 OSR Program Guide - Health & Saftey Page.pdf */,
+				BF96D7B51ECFF7BA00F8F462 /* 2017 OSR Program Guide - Older Boy Page.pdf */,
+				BF96D7B61ECFF7BA00F8F462 /* 2017 OSR Program Guide - Paintball Page.pdf */,
+				BF96D7B71ECFF7BA00F8F462 /* 2017 OSR Program Guide - Sales & Finance Page.pdf */,
+				BF96D7B81ECFF7BA00F8F462 /* 2017 OSR Program Guide - Scout Craft Page.pdf */,
+				BF96D7B91ECFF7BA00F8F462 /* 2017 OSR Program Guide - Shooting Sports Page.pdf */,
+				BF96D7BA1ECFF7BA00F8F462 /* 2017 OSR Program Guide - STEM Page.pdf */,
+				BF96D7BB1ECFF7BA00F8F462 /* 2017 OSR Program Guide - The Glaize Page.pdf */,
 				6AAE57B71EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf */,
 				6AAE57B51EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf */,
 				6AAE57B31EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf */,
@@ -239,13 +275,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF96D7BD1ECFF7BA00F8F462 /* 2017 OSR Program Guide - ATV Page.pdf in Resources */,
+				BF96D7C61ECFF7BA00F8F462 /* 2017 OSR Program Guide - STEM Page.pdf in Resources */,
+				BF96D7C71ECFF7BA00F8F462 /* 2017 OSR Program Guide - The Glaize Page.pdf in Resources */,
+				BF96D7C41ECFF7BA00F8F462 /* 2017 OSR Program Guide - Scout Craft Page.pdf in Resources */,
+				BF96D7BF1ECFF7BA00F8F462 /* 2017 OSR Program Guide - First Year Camper Page.pdf in Resources */,
 				6AAE57B61EB83EEE0050CDB8 /* 2017-OSR-Program-Guide-Communications-Page.pdf in Resources */,
+				BF96D7C01ECFF7BA00F8F462 /* 2017 OSR Program Guide - Health & Saftey Page.pdf in Resources */,
+				BF96D7C21ECFF7BA00F8F462 /* 2017 OSR Program Guide - Paintball Page.pdf in Resources */,
 				6A57A3E51EB0258800FD06D3 /* LaunchScreen.storyboard in Resources */,
 				6A8F441B1EB8238300650E3D /* GoogleService-Info.plist in Resources */,
 				6A57A3E21EB0258800FD06D3 /* Assets.xcassets in Resources */,
 				6AAE57B41EB83DB60050CDB8 /* 2017-OSR-Program-Guide-Aquatics-Page.pdf in Resources */,
+				BF96D7C11ECFF7BA00F8F462 /* 2017 OSR Program Guide - Older Boy Page.pdf in Resources */,
 				6AAE57B81EB83F040050CDB8 /* 2017-OSR-Program-Guide-Craft-Lodge-Page.pdf in Resources */,
+				BF96D7C31ECFF7BA00F8F462 /* 2017 OSR Program Guide - Sales & Finance Page.pdf in Resources */,
+				BF96D7BE1ECFF7BA00F8F462 /* 2017 OSR Program Guide - Field Sports Page.pdf in Resources */,
+				BF96D7BC1ECFF7BA00F8F462 /* 2017 OSR Program Guide -  Nature Page.pdf in Resources */,
 				6A57A3E01EB0258800FD06D3 /* Main.storyboard in Resources */,
+				BF96D7C51ECFF7BA00F8F462 /* 2017 OSR Program Guide - Shooting Sports Page.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
